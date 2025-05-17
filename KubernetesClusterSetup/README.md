@@ -69,14 +69,14 @@ This project uses a Vagrantfile to automatically create and configure three VMs:
 To create the VMs and set up the Kubernetes cluster, clone the repository and execute the following:
 
 ```bash
-git clone git@github.com:MSKazemi/Autonomous-Navigation-TESTBED.git
-cd Autonomous-Navigation-TESTBED
+git clone https://github.com/BruteForce111/Autonomous-Navigation-Testbed.git
+cd Autonomous-Navigation-Testbed
 vagrant up | tee vagrant.log
 ```
 
 The `vagrant up` command will read the `Vagrantfile` in your current directory and create the VMs as specified. It will also execute the provisioning scripts defined in the `Vagrantfile` to install necessary packages, set up the Kubernetes cluster, and join the worker nodes to the cluster. So it is not necessary to run any thing else. And following is the explanation of the `Vagrantfile` and the `kubeadm` tool. The command `vagrant up | tee vagrant.log` not only creates a cluster, but also generates a log file. This log file contains important information and a token necessary for logging into the Kubernetes dashboard.
 
-### Clsuter Verification
+### Cluster Verification
   
 After `vagrant up`, you should verify that all nodes and pods in your Kubernetes cluster are running correctly:
 
