@@ -4,7 +4,7 @@ Welcome to the Autonomous-Navigation-Testbed repository, an integrated environme
 
 ## Overview
 
-This project leverages Vagrant to automate the deployment of a Kubernetes cluster, configuring VirtualBox virtual machines, and setting up an extensive monitoring system. It is tailored for both development and educational purposes, particularly in robotic systems where ROS2 applications are prevalent.
+This project leverages Vagrant to automate the deployment of a Kubernetes cluster, configuring VirtualBox virtual machines, and setting up an extensive monitoring system. It is tailored for both development, particularly in robotic systems where ROS2 applications are prevalent.
 
 ## Installation and Usage
 
@@ -45,7 +45,7 @@ vagrant --version
 To create the VMs and set up the Kubernetes cluster, clone the repository and execute the following:
 
 ```bash
-git clone 
+git clone https://github.com/BruteForce111/Autonomous-Navigation-Testbed.git
 cd Autonomous_Navigation_Testbed
 vagrant up | tee vagrant.log
 ```
