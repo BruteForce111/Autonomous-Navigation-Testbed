@@ -1,26 +1,6 @@
-# Vagrant-Kubernetes-ROS2 Deployment
+# Autonomous-Navigation-Testbed
 
-Welcome to the Vagrant-Kubernetes-ROS2 Deployment repository, an integrated environment designed for robust Kubernetes cluster management, ROS2 applications, and advanced monitoring systems using Vagrant and VirtualBox. This setup provides a comprehensive toolkit for developing, monitoring, and analyzing robotic systems and data.
-
-## Table of Contents
-
-- [Vagrant-Kubernetes-ROS2 Deployment](#vagrant-kubernetes-ros2-deployment)
-  - [Table of Contents](#table-of-contents)
-  - [Overview](#overview)
-  - [Installation and Usage](#installation-and-usage)
-    - [Prerequisites](#prerequisites)
-      - [Installation of VirtualBox](#installation-of-virtualbox)
-      - [Installation of Vagrant](#installation-of-vagrant)
-  - [Project Structure](#project-structure)
-    - [Kubernetes Cluster Setup](#kubernetes-cluster-setup)
-    - [Network Configuration](#network-configuration)
-    - [Monitoring System](#monitoring-system)
-    - [ROS2 Deployment](#ros2-deployment)
-    - [Data Analysis Tools](#data-analysis-tools)
-  - [Citation](#citation)
-    - [License](#license)
-  - [Contributing](#contributing)
-  - [Acknowledgments](#acknowledgments)
+Welcome to the Autonomous-Navigation-Testbed repository, an integrated environment designed for robust Kubernetes cluster management, ROS2 applications, and advanced monitoring systems using Vagrant and VirtualBox. This setup provides a comprehensive toolkit for developing, monitoring, and analyzing robotic systems and data.
 
 ## Overview
 
@@ -127,4 +107,4 @@ Python and Jupyter Notebook setups for analyzing data collected from the environ
 - Grafana
 - ROS2
 
-Thank you for exploring our Vagrant-Kubernetes-ROS2 Deployment repository. Dive into each component for a deeper understanding and more detailed documentation!
+Thank you for exploring our Autonomous-Navigation-Testbed repository. Dive into each component for a deeper understanding and more detailed documentation!
