@@ -1,8 +1,14 @@
+# This file launches a ROS2-based workload that simulates heavy resource usage and configures 
+# Kubernetes to automatically adjust its resource allocation using a Vertical Pod Autoscaler, 
+# all within a dedicated namespace. This setup is useful for testing how ROS2 applications 
+# behave under varying loads and how Kubernetes can optimize resource usage dynamically.
 apiVersion: v1
 kind: Namespace
 metadata:
   name: ros
 ---
+# This section defines a Kubernetes Deployment resource for a ROS2-based workload.
+# It creates a single-instance deployment of a ROS2 application in the 'ros' namespace.
 apiVersion: apps/v1
 kind: Deployment
 metadata:

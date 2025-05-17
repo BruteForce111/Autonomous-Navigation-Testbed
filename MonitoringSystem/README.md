@@ -65,7 +65,6 @@ kubectl -n kubernetes-dashboard describe secret $(kubectl -n kubernetes-dashboar
 ```
 Open the site in your browser: https://192.168.56.10:30664/#/login
 
-![Architecture Diagram](../images/k8s1.png)
 
 ### Prometheus and Grafana
 
@@ -134,8 +133,8 @@ http://192.168.56.10:31334
 Username: admin
 Password: prom-operator
 
-![Architecture Diagram](../images/p1.png)
-![Architecture Diagram](../images/p2.png)
+![Architecture Diagram](../images/prom1.png)
+![Architecture Diagram](../images/prom2.png)
 
 #### Grafana
 
